@@ -2,21 +2,6 @@
 title: Home
 slug: /
 sections:
-  - type: DividerSection
-    title: Divider
-    elementId: >-
-      #line-element {  width: 0;  height: 4px; /* Espessura da linha */ 
-      background-color: #333; /* Cor da linha */  margin: 20px auto; /*
-      Centraliza a linha */  animation: expand-line 2s forwards;}@keyframes
-      expand-line {  0% {    width: 0;  }  100% {    width: 100%;  }}
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-3
-          - pl-3
-          - pb-3
-          - pr-3
   - type: GenericSection
     title:
       text: Unblock your team boost your time to production
@@ -66,6 +51,21 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+  - type: DividerSection
+    title: Divider
+    elementId: >-
+      #line-element {  width: 0;  height: 4px; /* Espessura da linha */ 
+      background-color: #333; /* Cor da linha */  margin: 20px auto; /*
+      Centraliza a linha */  animation: expand-line 2s forwards;}@keyframes
+      expand-line {  0% {    width: 0;  }  100% {    width: 100%;  }}
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-3
+          - pl-3
+          - pb-3
+          - pr-3
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
