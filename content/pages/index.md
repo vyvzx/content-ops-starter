@@ -58,6 +58,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/Adobe_Express_20240615_0626550_1.png
   - type: GenericSection
     title:
       text: Unblock your team boost your time to production
