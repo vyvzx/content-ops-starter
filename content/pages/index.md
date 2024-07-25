@@ -840,7 +840,7 @@ sections:
           - Feature four
         image:
           type: ImageBlock
-          url: /images/abstract-feature1.svg
+          url: /images/Adobe_Express_20240216_0235410_1-removebg-preview (2).png
           altText: Pricing plan 1
         actions:
           - type: Button
