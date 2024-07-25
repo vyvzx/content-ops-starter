@@ -89,6 +89,15 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+        elementId: >-
+          <!DOCTYPE html><html lang="pt-BR"><head>    <meta charset="UTF-8">   
+          <meta name="viewport" content="width=device-width,
+          initial-scale=1.0">    <style>        @keyframes esquecer {           
+          0% { opacity: 1; }            50% { opacity: 0; }            100% {
+          opacity: 1; }        }        #elementoExemplo {            animation:
+          esquecer 1s infinite;        }    </style>    <title>Exemplo de
+          Animação</title></head><body>    <div id="elementoExemplo">Este é o
+          elemento que vai piscar.</div></body></html>
       - type: FeaturedItem
         title: Business Consulting
         tagline: Feature 2
