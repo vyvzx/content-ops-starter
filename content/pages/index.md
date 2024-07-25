@@ -59,6 +59,90 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 100
       url: /images/Adobe_Express_20240615_0626550_1.png
+  - type: CarouselSection
+    items:
+      - type: FeaturedItem
+        title: Social Media Management
+        tagline: Feature 1
+        subtitle: Increase your reach
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/img-placeholder.svg
+          altText: Featured item
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        elementId: >-
+          <!DOCTYPE html><html lang="pt-BR"><head>    <meta charset="UTF-8">   
+          <meta name="viewport" content="width=device-width,
+          initial-scale=1.0">    <style>        @keyframes esquecer {           
+          0% { opacity: 1; }            50% { opacity: 0; }            100% {
+          opacity: 1; }        }        #elementoExemplo {            animation:
+          esquecer 1s infinite;        }    </style>    <title>Exemplo de
+          Animação</title></head><body>    <div id="elementoExemplo">Este é o
+          elemento que vai piscar.</div></body></html>
+      - type: FeaturedItem
+        title: Business Consulting
+        tagline: Feature 2
+        subtitle: Be in good company
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          type: ImageBlock
+          url: /images/img-placeholder.svg
+          altText: Business consulting
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-dark-fg-light
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+    variant: next-prev-nav-multiple
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    elementId: >-
+      <!DOCTYPE html><html lang="pt-BR"><head>    <meta charset="UTF-8">   
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+      <style>        @keyframes esquecer {            0% { opacity: 1;
+      }            50% { opacity: 0; }            100% { opacity: 1; }       
+      }        #elementoExemplo {            animation: esquecer 1s
+      infinite;        }    </style>    <title>Exemplo de
+      Animação</title></head><body>    <div id="elementoExemplo">Este é o
+      elemento que vai piscar.</div></body></html>
   - type: GenericSection
     title:
       text: Unblock your team boost your time to production
@@ -229,7 +313,7 @@ sections:
       type: Badge
     elementId: ''
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
         padding:
@@ -257,7 +341,7 @@ sections:
       - url: /images/this is sparta (3).jpeg
         altText: Sanity logo
         type: ImageBlock
-      - url: /images/AirBrush_20240607171504.jpg
+      - url: /images/Adobe_Express_20240615_0626550_1.png
         altText: Contentful logo
         type: ImageBlock
       - url: /images/rangle-logo.svg
@@ -744,6 +828,10 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
+        elementId: >-
+          @keyframes impulso {    0% { transform: scale(1); }    50% {
+          transform: scale(1.1); }    100% { transform: scale(1);
+          }}#seuElementoID {    animation: impulso 0.5s ease-in-out;}
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
@@ -809,13 +897,20 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: null
+        elementId: >-
+          @keyframes impulso {    0% { transform: scale(1); }    50% {
+          transform: scale(1.1); }    100% { transform: scale(1);
+          }}#seuElementoID {    animation: impulso 0.5s ease-in-out;}
     badge:
       label: Contact Us
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
     type: GenericSection
+    elementId: >-
+      @keyframes impulso {    0% { transform: scale(1); }    50% { transform:
+      scale(1.1); }    100% { transform: scale(1); }}#seuElementoID {   
+      animation: impulso 0.5s ease-in-out;}
   - type: PricingSection
     title:
       type: TitleBlock
@@ -923,6 +1018,42 @@ sections:
               - pl-6
               - pr-6
             borderRadius: large
+        elementId: >-
+          <!DOCTYPE html><html lang="pt-br"><head>    <meta charset="UTF-8">   
+          <meta name="viewport" content="width=device-width,
+          initial-scale=1.0">    <title>Comprar Produto</title>   
+          <style>        body {            font-family: Arial,
+          sans-serif;            display: flex;            justify-content:
+          center;            align-items: center;            height:
+          100vh;            margin: 0;            background-color:
+          #f4f4f4;        }        .container {            background:
+          #fff;            padding: 20px;            border-radius:
+          5px;            box-shadow: 0 0 10px rgba(0,0,0,0.1);        }       
+          .container h1 {            margin-top: 0;        }        .form-group
+          {            margin-bottom: 15px;        }        .form-group label
+          {            display: block;            margin-bottom: 5px;       
+          }        .form-group input, .form-group button {            width:
+          100%;            padding: 10px;            box-sizing:
+          border-box;        }        .form-group button {           
+          background-color: #007bff;            color: #fff;            border:
+          none;            cursor: pointer;            font-size: 16px;       
+          }        .form-group button:hover {            background-color:
+          #0056b3;        }    </style></head><body>    <div
+          class="container">        <h1>Comprar Produto</h1>        <form
+          action="/processar-compra" method="post">            <div
+          class="form-group">                <label
+          for="nome">Nome:</label>                <input type="text" id="nome"
+          name="nome" required>            </div>            <div
+          class="form-group">                <label
+          for="email">E-mail:</label>                <input type="email"
+          id="email" name="email" required>            </div>            <div
+          class="form-group">                <label
+          for="produto">Produto:</label>                <input type="text"
+          id="produto" name="produto" value="Produto Exemplo"
+          readonly>            </div>            <div
+          class="form-group">                <button
+          type="submit">Comprar</button>            </div>        </form>   
+          </div></body></html>
     colors: bg-light-fg-dark
     styles:
       self:
@@ -934,5 +1065,8 @@ seo:
   metaDescription: This demo site is built with Netlify Create.
   socialImage: /images/main-hero.jpg
   type: Seo
+  metaTags:
+    - type: MetaTag
+  addTitleSuffix: true
 type: PageLayout
 ---
