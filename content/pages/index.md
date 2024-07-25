@@ -840,7 +840,7 @@ sections:
           - Feature four
         image:
           type: ImageBlock
-          url: /images/AirBrush_20240607171504.jpg
+          url: /images/abstract-feature1.svg
           altText: Pricing plan 1
         actions:
           - type: Button
