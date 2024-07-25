@@ -259,7 +259,7 @@ sections:
           borderRadius: xx-small
       type: VideoBlock
       autoplay: true
-      loop: true
+      loop: false
       muted: true
       elementId: ''
     badge:
