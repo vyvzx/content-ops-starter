@@ -55,7 +55,7 @@ sections:
       type: BackgroundImage
       altText: altText of the image
       backgroundSize: auto
-      backgroundPosition: center
+      backgroundPosition: left
       backgroundRepeat: no-repeat
       opacity: 100
       url: /images/Adobe_Express_20240615_0626550_1.png
