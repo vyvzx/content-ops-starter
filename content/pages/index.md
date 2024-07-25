@@ -4,7 +4,11 @@ slug: /
 sections:
   - type: DividerSection
     title: Divider
-    elementId: ''
+    elementId: >-
+      #line-element {  width: 0;  height: 4px; /* Espessura da linha */ 
+      background-color: #333; /* Cor da linha */  margin: 20px auto; /*
+      Centraliza a linha */  animation: expand-line 2s forwards;}@keyframes
+      expand-line {  0% {    width: 0;  }  100% {    width: 100%;  }}
     colors: bg-light-fg-dark
     styles:
       self:
