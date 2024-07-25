@@ -923,6 +923,42 @@ sections:
               - pl-6
               - pr-6
             borderRadius: large
+        elementId: >-
+          <!DOCTYPE html><html lang="pt-br"><head>    <meta charset="UTF-8">   
+          <meta name="viewport" content="width=device-width,
+          initial-scale=1.0">    <title>Comprar Produto</title>   
+          <style>        body {            font-family: Arial,
+          sans-serif;            display: flex;            justify-content:
+          center;            align-items: center;            height:
+          100vh;            margin: 0;            background-color:
+          #f4f4f4;        }        .container {            background:
+          #fff;            padding: 20px;            border-radius:
+          5px;            box-shadow: 0 0 10px rgba(0,0,0,0.1);        }       
+          .container h1 {            margin-top: 0;        }        .form-group
+          {            margin-bottom: 15px;        }        .form-group label
+          {            display: block;            margin-bottom: 5px;       
+          }        .form-group input, .form-group button {            width:
+          100%;            padding: 10px;            box-sizing:
+          border-box;        }        .form-group button {           
+          background-color: #007bff;            color: #fff;            border:
+          none;            cursor: pointer;            font-size: 16px;       
+          }        .form-group button:hover {            background-color:
+          #0056b3;        }    </style></head><body>    <div
+          class="container">        <h1>Comprar Produto</h1>        <form
+          action="/processar-compra" method="post">            <div
+          class="form-group">                <label
+          for="nome">Nome:</label>                <input type="text" id="nome"
+          name="nome" required>            </div>            <div
+          class="form-group">                <label
+          for="email">E-mail:</label>                <input type="email"
+          id="email" name="email" required>            </div>            <div
+          class="form-group">                <label
+          for="produto">Produto:</label>                <input type="text"
+          id="produto" name="produto" value="Produto Exemplo"
+          readonly>            </div>            <div
+          class="form-group">                <button
+          type="submit">Comprar</button>            </div>        </form>   
+          </div></body></html>
     colors: bg-light-fg-dark
     styles:
       self:
