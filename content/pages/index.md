@@ -840,7 +840,7 @@ sections:
           - Feature four
         image:
           type: ImageBlock
-          url: /images/pixelcut-export.jpeg
+          url: /images/AirBrush_20240607171504.jpg
           altText: Pricing plan 1
         actions:
           - type: Button
