@@ -257,7 +257,7 @@ sections:
       - url: /images/this is sparta (3).jpeg
         altText: Sanity logo
         type: ImageBlock
-      - url: /images/contenful-logo.svg
+      - url: /images/AirBrush_20240607171504.jpg
         altText: Contentful logo
         type: ImageBlock
       - url: /images/rangle-logo.svg
