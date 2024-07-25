@@ -809,7 +809,10 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: null
+        elementId: >-
+          @keyframes impulso {    0% { transform: scale(1); }    50% {
+          transform: scale(1.1); }    100% { transform: scale(1);
+          }}#seuElementoID {    animation: impulso 0.5s ease-in-out;}
     badge:
       label: Contact Us
       color: text-primary
