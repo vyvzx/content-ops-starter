@@ -816,6 +816,10 @@ sections:
       type: Badge
     colors: bg-light-fg-dark
     type: GenericSection
+    elementId: >-
+      @keyframes impulso {    0% { transform: scale(1); }    50% { transform:
+      scale(1.1); }    100% { transform: scale(1); }}#seuElementoID {   
+      animation: impulso 0.5s ease-in-out;}
   - type: PricingSection
     title:
       type: TitleBlock
