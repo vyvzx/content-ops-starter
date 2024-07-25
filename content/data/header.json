@@ -96,7 +96,8 @@
     "styles": {
         "self": {
             "padding": [
-                "pt-0"
+                "pt-0",
+                "pr-36"
             ]
         }
     }
