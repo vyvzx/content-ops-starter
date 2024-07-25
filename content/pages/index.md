@@ -256,7 +256,7 @@ sections:
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 1
-          borderRadius: large
+          borderRadius: xx-small
       type: VideoBlock
       autoplay: true
       loop: true
