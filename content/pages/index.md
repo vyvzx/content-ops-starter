@@ -125,6 +125,9 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+    elementId: >-
+      @keyframes esquecer {    0% { opacity: 1; }    50% { opacity: 0; }    100%
+      { opacity: 1; }}#seuElementoID {    animation: esquecer 1s infinite;}
   - type: GenericSection
     title:
       text: Unblock your team boost your time to production
