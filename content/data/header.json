@@ -90,7 +90,18 @@
             "type": "Button"
         }
     ],
-    "variant": "logo-left-primary-nav-centered",
+    "variant": "logo-centered-primary-nav-left",
     "colors": "bg-light-fg-dark",
-    "type": "Header"
+    "type": "Header",
+    "styles": {
+        "self": {
+            "padding": [
+                "pt-0",
+                "pr-0"
+            ],
+            "margin": [
+                "mr-0"
+            ]
+        }
+    }
 }

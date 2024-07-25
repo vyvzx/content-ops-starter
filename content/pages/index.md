@@ -2,6 +2,63 @@
 title: Home
 slug: /
 sections:
+  - type: ImageGallerySection
+    subtitle: Our customers
+    images:
+      - type: ImageBlock
+        url: /images/empathy-logo.svg
+        altText: Empathy logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/wellster-logo.svg
+        altText: Wellster logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/vise-logo.svg
+        altText: Vise logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/telus-logo.svg
+        altText: Telus logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/contenful-logo.svg
+        altText: Contentful logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/sanity-logo.svg
+        altText: Sanity logo
+        elementId: ''
+      - type: ImageBlock
+        url: /images/rangle-logo.svg
+        altText: Rangle logo
+        elementId: ''
+    elementId: ''
+    motion: move-to-left
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        margin:
+          - mt-0
+          - ml-0
+          - mb-0
+          - mr-0
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
+      url: /images/Adobe_Express_20240615_0626550_1.png
   - type: GenericSection
     title:
       text: Unblock your team boost your time to production
@@ -51,6 +108,21 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+  - type: DividerSection
+    title: Divider
+    elementId: >-
+      #line-element {  width: 0;  height: 4px; /* Espessura da linha */ 
+      background-color: #333; /* Cor da linha */  margin: 20px auto; /*
+      Centraliza a linha */  animation: expand-line 2s forwards;}@keyframes
+      expand-line {  0% {    width: 0;  }  100% {    width: 100%;  }}
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-3
+          - pl-3
+          - pb-3
+          - pr-3
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
@@ -256,11 +328,12 @@ sections:
           borderColor: border-dark
           borderStyle: solid
           borderWidth: 1
-          borderRadius: large
+          borderRadius: xx-small
       type: VideoBlock
       autoplay: true
       loop: true
       muted: true
+      elementId: ''
     badge:
       label: Key Benefits
       color: text-primary
