@@ -313,7 +313,7 @@ sections:
       type: Badge
     elementId: ''
     variant: three-col-grid
-    colors: bg-dark-fg-light
+    colors: bg-light-fg-dark
     styles:
       self:
         padding:
