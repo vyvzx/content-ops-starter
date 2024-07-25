@@ -259,7 +259,7 @@ sections:
           borderRadius: large
       type: VideoBlock
       autoplay: false
-      loop: true
+      loop: false
       muted: true
     badge:
       label: Key Benefits
