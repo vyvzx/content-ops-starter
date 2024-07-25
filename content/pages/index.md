@@ -57,7 +57,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 73
+      opacity: 100
       url: /images/Adobe_Express_20240615_0626550_1.png
   - type: GenericSection
     title:
