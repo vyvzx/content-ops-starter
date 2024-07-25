@@ -262,13 +262,12 @@ sections:
       loop: true
       muted: true
       elementId: >-
-        #video-container {  width: 300px;  height: 200px;  margin: 0 auto; 
-        position: relative;  border: 2px solid transparent;  background:
-        linear-gradient(white, white) padding-box,             
-        linear-gradient(to right, #ff6ec4, #7873f5) border-box;  animation:
-        border-animation 3s linear infinite;}@keyframes border-animation {  0%
-        {    background-position: 0% 0%;  }  100% {    background-position: 100%
-        100%;  }}
+        {  width: 300px;  height: 200px;  margin: 0 auto;  position: relative; 
+        border: 2px solid transparent;  background: linear-gradient(white,
+        white) padding-box,              linear-gradient(to right, #ff6ec4,
+        #7873f5) border-box;  animation: border-animation 3s linear
+        infinite;}@keyframes border-animation {  0% {    background-position: 0%
+        0%;  }  100% {    background-position: 100% 100%;  }}
     badge:
       label: Key Benefits
       color: text-primary
