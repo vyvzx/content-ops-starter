@@ -983,5 +983,6 @@ seo:
   type: Seo
   metaTags:
     - type: MetaTag
+  addTitleSuffix: true
 type: PageLayout
 ---
