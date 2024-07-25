@@ -244,7 +244,7 @@ sections:
     media:
       title: Title of the video
       url: /images/placeholder-video.mp4
-      controls: false
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
