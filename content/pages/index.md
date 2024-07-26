@@ -34,7 +34,7 @@ sections:
         altText: Rangle logo
         elementId: ''
     elementId: ''
-    motion: move-to-right
+    motion: static
     colors: bg-dark-fg-light
     styles:
       self:
