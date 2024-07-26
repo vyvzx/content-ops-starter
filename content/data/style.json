@@ -71,7 +71,7 @@
         "borderRadius": "DEFAULT",
         "shadow": "none",
         "horizontalPadding": 30,
-        "verticalPadding": 2,
+        "verticalPadding": 8,
         "type": "ThemeStyleButton"
     },
     "linkPrimary": {
