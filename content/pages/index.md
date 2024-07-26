@@ -34,8 +34,8 @@ sections:
         altText: Rangle logo
         elementId: ''
     elementId: ''
-    motion: move-to-left
-    colors: bg-light-fg-dark
+    motion: static
+    colors: bg-neutral-fg-dark
     styles:
       self:
         margin:
@@ -51,14 +51,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/Adobe_Express_20240615_0626550_1.png
   - type: CarouselSection
     items:
       - type: FeaturedItem
