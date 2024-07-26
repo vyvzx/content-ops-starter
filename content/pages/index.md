@@ -1066,7 +1066,7 @@ sections:
         altText: ''
         url: /
         showIcon: false
-        icon: arrowLeft
+        icon: chevronBigRight
         iconPosition: right
         style: primary
         elementId: ''
