@@ -85,15 +85,7 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
-        elementId: >-
-          <!DOCTYPE html><html lang="pt-BR"><head>    <meta charset="UTF-8">   
-          <meta name="viewport" content="width=device-width,
-          initial-scale=1.0">    <style>        @keyframes esquecer {           
-          0% { opacity: 1; }            50% { opacity: 0; }            100% {
-          opacity: 1; }        }        #elementoExemplo {            animation:
-          esquecer 1s infinite;        }    </style>    <title>Exemplo de
-          Animação</title></head><body>    <div id="elementoExemplo">Este é o
-          elemento que vai piscar.</div></body></html>
+        elementId: ''
       - type: FeaturedItem
         title: Business Consulting
         tagline: Feature 2
@@ -210,7 +202,7 @@ sections:
     showThumbnail: true
     showDate: true
     showAuthor: true
-    variant: three-col-grid
+    variant: small-list
     colors: bg-light-fg-dark
     styles:
       self:
@@ -681,7 +673,7 @@ sections:
           transform: scale(1.1); }    100% { transform: scale(1);
           }}#seuElementoID {    animation: impulso 0.5s ease-in-out;}
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
         padding:
