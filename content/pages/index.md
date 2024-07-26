@@ -971,7 +971,7 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: col-reverse
+            flexDirection: col
             justifyContent: center
             textAlign: left
         image:
