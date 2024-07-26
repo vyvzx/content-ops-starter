@@ -1066,7 +1066,7 @@ sections:
         altText: ''
         url: /
         showIcon: false
-        icon: arrowDown
+        icon: arrowLeft
         iconPosition: right
         style: primary
         elementId: ''
