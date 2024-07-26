@@ -975,6 +975,7 @@ sections:
             justifyContent: flex-start
             textAlign: left
             borderColor: border-light
+            borderStyle: solid
         image:
           type: ImageBlock
           altText: Lightning bolt symbol on red background
