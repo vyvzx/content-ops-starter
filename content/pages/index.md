@@ -1068,7 +1068,7 @@ sections:
         showIcon: false
         icon: chevronBigRight
         iconPosition: right
-        style: primary
+        style: secondary
         elementId: ''
         type: Button
     badge:
