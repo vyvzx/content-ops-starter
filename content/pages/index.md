@@ -973,7 +973,7 @@ sections:
             borderRadius: medium
             flexDirection: row
             justifyContent: flex-start
-            textAlign: justify
+            textAlign: left
             borderColor: border-light
         image:
           type: ImageBlock
