@@ -970,7 +970,7 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            borderRadius: medium
+            borderRadius: small
             flexDirection: row
             justifyContent: flex-start
             textAlign: left
