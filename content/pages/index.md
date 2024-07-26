@@ -1023,7 +1023,7 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            borderRadius: full
+            borderRadius: large
             flexDirection: row
         type: FeaturedItem
     actions:
