@@ -673,7 +673,7 @@ sections:
           transform: scale(1.1); }    100% { transform: scale(1);
           }}#seuElementoID {    animation: impulso 0.5s ease-in-out;}
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
         padding:
